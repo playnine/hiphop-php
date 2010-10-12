@@ -33,6 +33,7 @@ namespace HPHP {
 
 const Variant null_variant = Variant();
 const VarNR null_varNR = VarNR();
+const Variant not_given_variant = Variant();
 
 IMPLEMENT_SMART_ALLOCATION_NOCALLBACKS(Variant);
 

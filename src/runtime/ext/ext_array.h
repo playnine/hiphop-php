@@ -110,7 +110,7 @@ inline bool f_key_exists(CVarRef key, CVarRef search) {
   return f_array_key_exists(key, search);
 }
 
-inline Variant f_array_keys(CVarRef input, CVarRef search_value = null_variant,
+inline Variant f_array_keys(CVarRef input, CVarRef search_value = not_given_variant,
                             bool strict = false) {
   if (!input.isArray()) {
     throw_bad_array_exception();
