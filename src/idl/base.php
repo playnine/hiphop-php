@@ -509,10 +509,10 @@ function generateFuncArgsCPPHeader($func, $f, $forceRef = false,
   if ($static) {
     fprintf($f, "const char* cls ");
   }
-  if ($var_arg) fprintf($f, 'int _argc, ');
+  if ($var_arg) fprintf($f, 'int _argc');
   for ($i = 0; $i < count($args); $i++) {
     $arg = $args[$i];
-    if ($static || $i > 0) fprintf($f, ', ');
+    if ($static || $var_arg || $i > 0) fprintf($f, ', ');
     $ref = $forceRef !== null && ($forceRef || idx($arg, 'ref'));
     fprintf($f, '%s %s', param_typename($arg['type'], $ref),
             $arg['name']);
