@@ -29,8 +29,8 @@ namespace HPHP {
 /* preface starts */
 extern CallInfo ci_;
 /* preface finishes */
-Variant pm_php$globals$symbols_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
-  PSEUDOMAIN_INJECTION_BUILTIN(run_init::globals/symbols.php, pm_php$globals$symbols_php);
+Variant pm_php$$globals$$symbols$_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
+  PSEUDOMAIN_INJECTION_BUILTIN(run_init::globals/symbols.php, pm_php$$globals$$symbols$_php);
   LVariableTable *gVariables __attribute__((__unused__)) = (LVariableTable *)g;
   Variant &v_argc __attribute__((__unused__)) = g->GV(argc);
   Variant &v_argv __attribute__((__unused__)) = g->GV(argv);

@@ -2067,8 +2067,8 @@ const bool k_ZEND_THREAD_SAFE = false;
 /* preface starts */
 extern CallInfo ci_;
 /* preface finishes */
-Variant pm_php$globals$constants_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
-  PSEUDOMAIN_INJECTION_BUILTIN(run_init::globals/constants.php, pm_php$globals$constants_php);
+Variant pm_php$$globals$$constants$_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
+  PSEUDOMAIN_INJECTION_BUILTIN(run_init::globals/constants.php, pm_php$$globals$$constants$_php);
   LVariableTable *gVariables __attribute__((__unused__)) = (LVariableTable *)g;
   return true;
 }

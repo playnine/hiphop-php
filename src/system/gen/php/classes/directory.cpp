@@ -348,8 +348,8 @@ Object coo_Directory() {
   r->init();
   return r;
 }
-Variant pm_php$classes$directory_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
-  PSEUDOMAIN_INJECTION_BUILTIN(run_init::classes/directory.php, pm_php$classes$directory_php);
+Variant pm_php$$classes$$directory$_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
+  PSEUDOMAIN_INJECTION_BUILTIN(run_init::classes/directory.php, pm_php$$classes$$directory$_php);
   LVariableTable *gVariables __attribute__((__unused__)) = (LVariableTable *)g;
   return true;
 }

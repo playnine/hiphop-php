@@ -249,8 +249,8 @@ Object coo_XhprofFrame() {
   r->init();
   return r;
 }
-Variant pm_php$classes$xhprof_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
-  PSEUDOMAIN_INJECTION_BUILTIN(run_init::classes/xhprof.php, pm_php$classes$xhprof_php);
+Variant pm_php$$classes$$xhprof$_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
+  PSEUDOMAIN_INJECTION_BUILTIN(run_init::classes/xhprof.php, pm_php$$classes$$xhprof$_php);
   LVariableTable *gVariables __attribute__((__unused__)) = (LVariableTable *)g;
   return true;
 }

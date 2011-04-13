@@ -2616,8 +2616,8 @@ Object coo_SplFileInfo() {
   r->init();
   return r;
 }
-Variant pm_php$classes$splfile_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
-  PSEUDOMAIN_INJECTION_BUILTIN(run_init::classes/splfile.php, pm_php$classes$splfile_php);
+Variant pm_php$$classes$$splfile$_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
+  PSEUDOMAIN_INJECTION_BUILTIN(run_init::classes/splfile.php, pm_php$$classes$$splfile$_php);
   LVariableTable *gVariables __attribute__((__unused__)) = (LVariableTable *)g;
   return true;
 }

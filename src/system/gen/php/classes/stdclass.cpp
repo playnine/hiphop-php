@@ -215,8 +215,8 @@ Object coo___PHP_Incomplete_Class() {
   r->init();
   return r;
 }
-Variant pm_php$classes$stdclass_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
-  PSEUDOMAIN_INJECTION_BUILTIN(run_init::classes/stdclass.php, pm_php$classes$stdclass_php);
+Variant pm_php$$classes$$stdclass$_php(bool incOnce /* = false */, LVariableTable* variables /* = NULL */, Globals *globals /* = get_globals() */) {
+  PSEUDOMAIN_INJECTION_BUILTIN(run_init::classes/stdclass.php, pm_php$$classes$$stdclass$_php);
   LVariableTable *gVariables __attribute__((__unused__)) = (LVariableTable *)g;
   return true;
 }

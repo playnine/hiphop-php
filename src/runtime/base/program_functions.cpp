@@ -392,7 +392,7 @@ void execute_command_line_begin(int argc, char **argv, int xhprof) {
   SystemGlobals *g = (SystemGlobals *)get_global_variables();
 
   // reset global symbols to nulls or empty arrays
-  pm_php$globals$symbols_php();
+  pm_php$$globals$$symbols$_php();
 
   process_env_variables(g->GV(_ENV));
   g->GV(_ENV).set("HPHP", 1);
