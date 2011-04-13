@@ -52,6 +52,9 @@ typedef Variant Sequence;
  * and ArrayData.
  */
 extern const Variant null_variant;
+// This can be used as default value for optional params, to distinguish
+// the not given case from the null case.
+extern const Variant not_given_variant;
 extern const String null_string;
 extern const Array null_array;
 #if defined(__GNUC__) && defined(WORDSIZE_IS_64)

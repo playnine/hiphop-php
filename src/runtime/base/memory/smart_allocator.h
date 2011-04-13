@@ -77,6 +77,7 @@ namespace HPHP {
 
 typedef void (*AllocatorThreadLocalInit)(void);
 std::set<AllocatorThreadLocalInit>& GetAllocatorInitList();
+void AddAllocatorThreadLocalInit(AllocatorThreadLocalInit init);
 void InitAllocatorThreadLocal();
 
 #define DECLARE_SMART_ALLOCATION(T, F)                                  \
